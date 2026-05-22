@@ -1,0 +1,6 @@
+@GISViewer_HostAddress = http://localhost:5125
+
+GET {{GISViewer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

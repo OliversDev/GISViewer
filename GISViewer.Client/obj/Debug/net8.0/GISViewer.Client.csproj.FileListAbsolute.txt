@@ -1,0 +1,11 @@
+C:\Users\owack\source\repos\GISViewer\GISViewer.Client\bin\Debug\net8.0\GISViewer.Client.deps.json
+C:\Users\owack\source\repos\GISViewer\GISViewer.Client\bin\Debug\net8.0\GISViewer.Client.dll
+C:\Users\owack\source\repos\GISViewer\GISViewer.Client\bin\Debug\net8.0\GISViewer.Client.pdb
+C:\Users\owack\source\repos\GISViewer\GISViewer.Client\obj\Debug\net8.0\GISViewer.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\owack\source\repos\GISViewer\GISViewer.Client\obj\Debug\net8.0\GISViewer.Client.AssemblyInfoInputs.cache
+C:\Users\owack\source\repos\GISViewer\GISViewer.Client\obj\Debug\net8.0\GISViewer.Client.AssemblyInfo.cs
+C:\Users\owack\source\repos\GISViewer\GISViewer.Client\obj\Debug\net8.0\GISViewer.Client.csproj.CoreCompileInputs.cache
+C:\Users\owack\source\repos\GISViewer\GISViewer.Client\obj\Debug\net8.0\GISViewer.Client.dll
+C:\Users\owack\source\repos\GISViewer\GISViewer.Client\obj\Debug\net8.0\refint\GISViewer.Client.dll
+C:\Users\owack\source\repos\GISViewer\GISViewer.Client\obj\Debug\net8.0\GISViewer.Client.pdb
+C:\Users\owack\source\repos\GISViewer\GISViewer.Client\obj\Debug\net8.0\ref\GISViewer.Client.dll
