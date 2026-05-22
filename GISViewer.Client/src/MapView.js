@@ -287,22 +287,22 @@ export default function MapView() {
     const [waterSupply, setWaterSupply] = useState(null);
 
     useEffect(() => {
-        fetch("/data/Public_Solid_Waste_Facilities_-4991589832547784803.geojson")
+        fetch(process.env.PUBLIC_URL + "/data/Public_Solid_Waste_Facilities_-4991589832547784803.geojson")
             .then((res) => res.json())
             .then((data) => setFacilities(data));
 
-        fetch("/data/Administrative_Boundaries_6129341894868586134.geojson")
+        fetch(process.env.PUBLIC_URL + "/data/Administrative_Boundaries_6129341894868586134.geojson")
             .then((res) => res.json())
             .then((data) => setAdminBoundaries(data));
 
-        fetch("/data/Water_Supply_Areas_-9163851906455395793.geojson")
+        fetch(process.env.PUBLIC_URL + "/data/Water_Supply_Areas_-9163851906455395793.geojson")
             .then((res) => res.json())
             .then((data) => setWaterSupply(data));
     }, []);
 
     const pointIcon = new L.Icon({
-        iconUrl: "/leaflet/WasteFacilityPin.png",
-        shadowUrl: "/leaflet/marker-shadow.png",
+        iconUrl: process.env.PUBLIC_URL + "/leaflet/WasteFacilityPin.png",
+        shadowUrl: process.env.PUBLIC_URL + "/leaflet/marker-shadow.png",
         iconSize: [52, 62],
         iconAnchor: [26, 62],
         popupAnchor: [0, -62],
@@ -346,7 +346,6 @@ export default function MapView() {
 
         return html;
     };
-
 
     const highlightStyle = {
         weight: 4,
